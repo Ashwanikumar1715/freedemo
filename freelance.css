@@ -14,10 +14,10 @@ nav{
     align-items: center;
 }
 .logo img{
-    height: 47px;
-    width: 50px;
+    height: 5vh;
+    width: 4vw;
     border: #000 solid 2px;
-    border-radius: 100px;
+    border-radius: 10vh;
 }
 nav ul{
     display: flex;
@@ -26,13 +26,13 @@ nav ul{
 }
 nav ul .li{
     list-style: none;
-    margin: 20px;
+    margin: 2vw;
 }
 .li a{
     text-decoration: none;
     color: white;
-    border: 5px solid rgb(100, 96, 96);
-    border-radius: 5px;
+    border: 0.5vh solid rgb(100, 96, 96);
+    border-radius: 0.6vh;
 }
 nav ul .li a:hover{
     font-weight: bolder;
@@ -42,10 +42,10 @@ nav ul .li a:hover{
     align-items: center;
 }
 .search input{
-    width: 512px;
-    height: 22px;
-    border-radius: 3px;
-    margin: 0px 10px 0px 25px;
+    width: 40vw;
+    height: 2.5vh;
+    border-radius: 0.5vh;
+    margin: 0 1vw 0px 2vw;
 }
 .search button{
 font-family: 'Times New Roman', Times, serif;
@@ -54,18 +54,18 @@ font-weight: bolder;
 marquee{
     background: yellow;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 37px;
+    font-size: 2em;
     font-weight: bolder;
     color: red;
-    margin: 10px 0px 10px 0px;
+    margin: 1vw 0 1vw 0;
 }
  .web{
     background: rgb(91, 214, 91);
-    border: #000 2px solid;
+    border: #000 0.2vh solid;
 }
 .app{
     background: rgb(146, 59, 100);
-    border: #000 2px solid;
+    border: #000 0.2vh solid;
 }
 .slider{
     display: flex;
@@ -74,7 +74,7 @@ marquee{
 .slider img{
     display: flex;
     align-items: center;
-   margin: 10px 10vw 10px 10vw; 
+   margin: 1vw 1vw 1vw 1vw; 
 }
 
 .content{
@@ -96,21 +96,21 @@ marquee{
 .h2{
     color: blue;
     border: #000;
-    text-size-adjust: 40px;
+    text-size-adjust: 3em;
 }
 .h2 p{
     text-align: center;
 }
 .profilepic img{
-    width: 200px;
+    width: 15vw;
     border: black 5px solid;
-    margin: 40px 40px 10px 40px;
+    margin: 1vw 4vw 1vw 4vw;
 }
 .information{
     display: inline-flex;
     flex-direction: column;
     justify-content: center;
-    margin: 5px 40px 40px 40px;
+    margin: 05vw 4vw 4vw 4vw;
     border: red 2px solid;
 
     
@@ -123,12 +123,12 @@ marquee{
 }
 .webdevelopers a{
     text-decoration: none;
-    border: 2px solid black;
+    border: 0.2vh  solid black;
 }
 .h1{
     color: rgb(14, 233, 185);
     border: #000;
-    text-size-adjust: 40px;
+    text-size-adjust:4vw;
 }
 .h1 p{
     text-align: center;
