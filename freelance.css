@@ -1,0 +1,145 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background: #000;
+    font-family: fantasy;
+}
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 47px;
+    width: 50px;
+    border: #000 solid 2px;
+    border-radius: 100px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav ul .li{
+    list-style: none;
+    margin: 20px;
+}
+.li a{
+    text-decoration: none;
+    color: white;
+    border: 5px solid rgb(100, 96, 96);
+    border-radius: 5px;
+}
+nav ul .li a:hover{
+    font-weight: bolder;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input{
+    width: 512px;
+    height: 22px;
+    border-radius: 3px;
+    margin: 0px 10px 0px 25px;
+}
+.search button{
+font-family: 'Times New Roman', Times, serif;
+font-weight: bolder;
+}
+marquee{
+    background: yellow;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 37px;
+    font-weight: bolder;
+    color: red;
+    margin: 10px 0px 10px 0px;
+}
+ .web{
+    background: rgb(91, 214, 91);
+    border: #000 2px solid;
+}
+.app{
+    background: rgb(146, 59, 100);
+    border: #000 2px solid;
+}
+.slider{
+    display: flex;
+    
+}
+.slider img{
+    display: flex;
+    align-items: center;
+   margin: 10px 10vw 10px 10vw; 
+}
+
+.content{
+    display: flex;
+    font-family: fantasy;
+}
+.ball{
+    display: flex;
+    font-family: fantasy;
+}
+.boy{
+    display: flex;
+    font-family: fantasy;
+}
+.baby{
+    display: flex;
+    font-family: fantasy;
+}
+.h2{
+    color: blue;
+    border: #000;
+    text-size-adjust: 40px;
+}
+.h2 p{
+    text-align: center;
+}
+.profilepic img{
+    width: 200px;
+    border: black 5px solid;
+    margin: 40px 40px 10px 40px;
+}
+.information{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5px 40px 40px 40px;
+    border: red 2px solid;
+
+    
+}
+.webdevelopers{
+    text-decoration: solid;
+    color: blue;
+    text-transform: capitalize;
+
+}
+.webdevelopers a{
+    text-decoration: none;
+    border: 2px solid black;
+}
+.h1{
+    color: rgb(14, 233, 185);
+    border: #000;
+    text-size-adjust: 40px;
+}
+.h1 p{
+    text-align: center;
+}
+footer{
+    height: 10vh;
+    background: black;
+    color: white;
+    font-size: bolder;
+    font-family: cursive;
+}
+footer p{
+    text-align: center;
+}
